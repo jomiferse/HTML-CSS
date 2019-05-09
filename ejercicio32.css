@@ -1,0 +1,120 @@
+body{
+	font-size: 14px;
+	font-family: Arial;
+	background-color: gray;
+}
+#contenedor{
+	background: white;
+	margin: 15px auto;
+	padding: 15px;
+	width: 750px;
+}
+/*Eliminamos la lista margenes y relleno*/
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+/*Borde superior, ancho y desbordamiento*/
+ul li{
+	border-top: 1px solid;
+	margin: 15px auto;
+	padding: 15px;
+	overflow: hidden;
+}
+/*Distribuimos en dos columnas titulo y controles*/
+ul li label.titulo{
+	float: left;
+	width: 150px;
+	text-align: right;
+	font-weight: bold;
+}
+ul li div.controles{
+	margin-left: 160px;
+}
+/*Asignamos ancho*/
+ul li div span.completo{
+	width: 100%;
+}
+ 
+ul li div span.mitad{
+	width: 50%;
+}
+ 
+ul li div span.tercio{
+	width: 33%;
+}
+ 
+ul li div span.dostercios{
+	width: 66%;
+}
+/*Para conseguir dos span en la misma línea*/
+ul li div span{
+	float: left;
+	padding: 4.8px 0;
+}
+/*Ahora los label debajo*/
+ul li div span label{
+	display: block;
+	font-size: 12px;
+	color: gray;
+}
+/*Controles del formulario*/
+ul li.botones input{
+	border: 2px solid #D4D4D4;
+}
+ul li.botones input:focus{
+	border: 2px solid black;
+}
+/*Efecto cambio de fondo*/
+ul li:hover{
+	background-color: #F0C77C;
+}
+/*Efecto recuadro*/
+ul li input:focus, ul li select:focus{
+	border: 2px solid #FF0000;
+	outline: none;
+}
+ul li input, ul li select{
+	border: 2px solid transparent;
+	border-bottom: 2px dotted black;
+}
+/*Inputs*/
+input#apellido1{
+	width: 250px;
+}
+
+input#apellido2{
+	width: 250px;
+}
+
+input#direccion{
+	width: 250px;
+}
+
+input#email{
+	width: 250px;
+}
+ 
+input#codigopostal{
+	width: 100px;
+}
+ 
+select#provincia{
+	width: 100px;
+}
+ 
+select#pais{
+	width: 150px;
+}
+ 
+input#telefonofijo{
+	width: 140px;
+}
+
+input#telefonomovil{
+	width: 140px;
+}
+
+li.botones:hover {
+	background-color: white;
+}

@@ -1,0 +1,58 @@
+#capa1{
+	background-color: orange;
+	position: absolute;
+	top: 360px;
+	bottom: 540px;
+	left: 570px;
+	right: 1270px;
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	border: 0px solid #000000;
+}
+
+#capa2{
+	background-color: #00ffff;
+	position: absolute;
+	top: 430px;
+	bottom: 469px;
+	left: 520px;
+	right: 1220px;
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	border: 0px solid #000000;
+
+}
+
+#capa3{
+	background-color: green;
+	position: absolute;
+	top: 500px;
+	bottom: 400px;
+	left: 470px;
+	right: 1170px;
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	border: 0px solid #000000;
+
+}
+
+#capa4{
+	background-color: red;
+	position: fixed;
+	top: 300px;
+	bottom: 350px;
+	left: 400px;
+	right: 1090px;
+	z-index: -1;
+	border-radius: 60px 60px 60px 60px;
+	-moz-border-radius: 60px 60px 60px 60px;
+	-webkit-border-radius: 60px 60px 60px 60px;
+	border: 0px solid #000000;
+}
+
+body {
+	background-color: black;
+}

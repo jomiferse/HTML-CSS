@@ -1,0 +1,79 @@
+div #cabecera {
+	background-color: #00BFFF;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 0px;
+}
+
+div #menuC {
+	background-color: #00BFFF;
+	font-size: 20px;
+	font-weight: bold;
+	overflow: auto;
+}
+
+#menuC a {
+	float: left;
+	margin: 5px;
+	padding: 3px;
+	background-color: white;
+}
+
+#menu{
+	float: left;
+	width: 20%;
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu ul li{
+	border-top: 1px dotted ;
+	width: 150px;
+	padding: 5px;
+}
+
+#menu ul li:nth-child(4){
+	border-bottom: 1px dotted ;
+}
+
+form {
+	width: 50%;
+}
+
+form fieldset input[name=user]{
+	width: 78px;
+}
+
+form fieldset input[name=pass]{
+	width: 78px;
+}
+
+form fieldset input{
+	width: 30px;
+	padding-top: 5px;
+}
+
+form fieldset {
+	text-align: right;
+}
+
+#contenido{
+	text-align: center;
+}
+
+#pie {
+	clear: both;
+	background-color: #00BFFF;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 15px;
+	position: absolute;
+	width: 1865px;
+	bottom: 260px;
+}

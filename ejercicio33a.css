@@ -1,0 +1,16 @@
+div #cabecera{
+	border: 2px solid gray;
+	top: 10px;
+	left: 50px;
+	right: 80px;
+	position: relative;
+	table-layout: fixed;
+}
+
+div #menu{
+
+}
+
+div div:nth-child(3){
+
+}
